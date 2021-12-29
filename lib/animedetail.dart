@@ -26,7 +26,7 @@ class animedetail extends StatelessWidget {
             children: [
               
               Image.network(dataModel.url,
-              height: 113,
+              height: 110,
               
               ),
                 Column(
@@ -39,7 +39,7 @@ class animedetail extends StatelessWidget {
                   style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
-                  fontSize: 15 
+                  fontSize: 14 
                   ),),
                   Text(dataModel.names,
                   style: TextStyle(
@@ -53,7 +53,7 @@ class animedetail extends StatelessWidget {
                   style: TextStyle(
                  color: Colors.white,
                  fontWeight: FontWeight.bold, 
-                 fontSize: 15,
+                 fontSize: 14,
                ),),
                Text(dataModel.ratings,
                style: TextStyle(
